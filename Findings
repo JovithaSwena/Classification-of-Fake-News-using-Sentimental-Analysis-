@@ -1,0 +1,22 @@
+ML models for the performance in the detection of fake news have been evaluated. By comparing their evaluation metrics, the Hyper tunning-SVM technique performs with an accuracy of 93.4%.  
+Evaluation Metrics			
+	     Accuracy	Precision	Recall	F1_score
+LR      	0.9273	0.9165	0.6281	0.7454
+NB	      0.9205	0.9259	0.5773	0.7112
+SVM      	0.9309	0.9229	0.6462	0.76022
+H-SVM	    0.9349	0.8809	0.7120	0.7875
+
+What are the main features that play a vital role in the detection of fake news with respect to emotions?
+		As discussed earlier, there is a correlation between emotions and fake news. Henceforth, Sentiment analysis is being utilized in this project for the detection of fake news. The sentimental polarity is the main feature or can be called a variant which plays an important role in the identification of fake news. They are as follows sentimental score, emotional ratio, positive ratio, and negative ratio which act as features for the detection of fake news.
+
+ The challenges that are faced when using sentimental analysis for the detection of fake news?
+The main drawback or challenges faced while using sentimental analysis are, the use of VADER, TextBlob, and Sentiwordnet approaches in most cases these are a library that comes with certain pre-defined words in their collection and those words which are not listed in the library may be considered as neutral. Also, the use case of each is different for example VADER is more effective when dealing with social media data so domain adaptability is a major drawback. Furthermore, the sentimental analysis may struggle to understand the contextual meaning.
+
+How effective is fake news in large datasets and find out the effective models for detecting fake news?
+From the analysis performed, the SVM algorithm performance with high accuracy level for the detection of fake news, particularly when the dataset is large and exhibits 
+non -linear relationship between the feature and labeled class. In addition to it, they can handle complex classification tasks, and also predict sentiment with a high level of accuracy. 
+
+Is detecting fake news automatically with efficient accuracy in real-time possible?
+Handling the detection of fake news automatically is a complex and challenging task due to the evolving nature of fake news and the vast amount of information available. However, there are various methods for detecting this fake news. In our paper, the use of various supervised machine-learning models for classifying fake news. As a result, the Hyper -tunning SVM model performed with an accuracy of 93%. In order to implement in real-time words is a challenging one. But combining multiple detection techniques, such as linguistic analysis and source credibility assessment, can enhance the accuracy and robustness. 
+ 
+In addition to it, fake news spread may adopt emerging techniques. Therefore, it is vital to update and enhance the detection models continuously. This can include incorporating real-time data, monitoring social media trends, and adapting the models to evolving patterns of fake news dissemination so that can refine and adapt the training model.
